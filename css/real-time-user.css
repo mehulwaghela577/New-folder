@@ -1,0 +1,456 @@
+/*main col*/
+#real-time-user .col-lg-9.header-custom-col{
+	width: 82.33%;
+	transition: 0.3s;
+}
+#real-time-user .col-lg-9.header-custom-col.expand{
+	width: 95%;
+}
+
+/*top-header*/
+#real-time-user .top-header{
+	background: #fff;
+	padding: 8px 20px;
+	border: 1px solid #DADCDF;
+	border-radius: 8px;
+} 
+#real-time-user .top-header .left .text{
+	margin-left: 7px;
+}
+#real-time-user .top-header .left .text h4{
+	color: var(--theme-color);
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 22px;
+}
+#real-time-user .top-header .left .text p{
+	color: #969696;
+	font-size: 12px;
+	font-weight: 500;
+	line-height: 22px;
+}
+#real-time-user .top-header .left .text p a.copy{
+	margin-left: 4px;
+	display: flex;
+	align-items: center;
+}
+#real-time-user .top-header .left .text p a.copy i{
+	color: var(--theme-color);
+	font-size: 12px;
+}
+#real-time-user .top-header .left .text p a.playstore{
+	margin-left: 7px;
+}
+#real-time-user .top-header .left .text p a.playstore img{
+	max-width: 14px;
+}
+#real-time-user .top-header .right .notification{
+	margin-right: 28px;
+	position: relative;
+	transition: 0.3s;
+}
+#real-time-user .top-header .right .notification svg.main-svg{
+	cursor: pointer;	
+}
+#real-time-user .top-header .right .notification:hover svg.main-svg path{
+	fill: var(--theme-color);
+}
+#real-time-user .top-header .right .notification .no{
+	background: #FF4D4F;
+	border-radius: 100%;
+	height: 19px;
+	width: 19px;
+	position: absolute;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #fff;
+	right: -11px;
+	top: -11px;
+	font-size: 13px;
+	font-weight: 700;
+	cursor: pointer;
+}
+#real-time-user .top-header .right a{
+	margin-right: 24px;
+}
+#real-time-user .top-header .right a i{
+	font-size: 24px;
+	color: #777777;
+	transition: 0.3s;
+}
+#real-time-user .top-header .right a:hover i{
+	color: var(--theme-color);
+}
+
+/*main content*/
+
+/*projectidpanel*/
+#real-time-user .main-content .projectidpanel{
+	padding: 20px;
+	border-radius: 12px;
+	border: 1px solid #DADCDF;
+	background: #FFF;
+}
+#real-time-user .main-content .projectidpanel .form-group.select{
+	max-width: 135px;
+	width: 100%;
+}
+#real-time-user .main-content .projectidpanel .form-select{
+	border: 1px solid #D4D4D4;
+	padding: 0 14px;
+	width: 100%;
+	height: 38px;
+	font-size: 14px;
+	color: #333333;
+	font-weight: 500;
+	box-shadow: none;
+	transition: 0.3s;
+}
+#real-time-user .main-content .projectidpanel .form-select:focus{
+	border-color: var(--theme-color);
+}
+#real-time-user .main-content .projectidpanel .input-group{
+	display: flex;
+	align-items: center;
+	border: 1px solid #D4D4D4;
+	border-radius: 6px;
+	width: 245px;
+}
+#real-time-user .main-content .projectidpanel .input-group .input-group-addon{
+	display: flex;
+	align-items: center;
+}
+#real-time-user .main-content .projectidpanel .input-group .form-control{
+	height: 38px;
+	padding: 0 9px;
+	border: none;
+	box-shadow: none;
+	font-size: 14px;
+	font-weight: 500;
+	max-width: 100px;
+	background: transparent;
+}
+#real-time-user .main-content .projectidpanel .input-group img{
+	width: 16px;
+}
+#real-time-user .main-content .projectidpanel .input-group i{
+	color: var(--theme-color);
+	position: absolute;
+	right: 12px;
+}
+
+/*graph*/
+#real-time-user .main-content .graph{
+	padding: 20px;
+	border-radius: 12px;
+	border: 1px solid #DADCDF;
+	background: #FFF;	
+	margin-top: 10px;
+	height: 400px;
+}
+#real-time-user .main-content .graph h2.heading{
+	font-size: 20px;
+    font-weight: 500;
+    color: var(--theme-color);
+    padding-bottom: 6px;
+    border-bottom: 1px dashed #848484;
+    display: inline;
+}
+#real-time-user .main-content .graph .body{
+	margin-top: 20px;
+}
+
+/*user data*/
+#real-time-user .main-content .userdata{
+	margin-top: 10px;
+}
+#real-time-user .main-content .userdata .real-time-user{
+	border-radius: 12px;
+	border: 1px solid #DADCDF;
+	background: #FFF;
+	padding: 20px;
+	height: 500px;
+}
+#real-time-user .main-content .userdata .real-time-user.second{
+	margin-left: 10px;
+}
+#real-time-user .main-content .userdata .real-time-user .header .left .heading{
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--theme-color);
+    padding-bottom: 6px;
+    border-bottom: 1px dashed #848484;
+    display: inline;
+}
+#real-time-user .main-content .userdata .real-time-user .header .left h6{
+	margin-left: 24px;
+	color: #969696;
+	font-size: 14px;
+	font-weight: 500;
+}
+#real-time-user .main-content .userdata .real-time-user .badge{
+	margin-left: 5px;
+    background: var(--theme-color);
+    padding: 3px 6px;
+    border-radius: 100px;
+    width: 29px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#real-time-user .main-content .userdata .real-time-user .header .form-group {
+	min-width: 155px;
+}
+#real-time-user .main-content .userdata .real-time-user .header .form-group .form-control{
+	border-radius: 6px;
+	border: 1px solid #DDD;
+	background: #FFF;
+	color: #888888;
+	font-size: 14px;
+	padding: 8px 12px;
+	box-shadow: none;
+	transition: 0.3s;
+}
+#real-time-user .main-content .userdata .real-time-user .header .form-group .form-control:focus{
+	border-color: var(--theme-color);
+}
+#real-time-user .main-content .userdata .real-time-user .header .status{
+	margin-left: 14px;
+	border-radius: 6px;
+	padding: 4px 10px;
+}
+#real-time-user .main-content .userdata .real-time-user .header .status.active{
+	background: #E5F8F3;
+	color: #04B88C;
+}
+#real-time-user .main-content .userdata .real-time-user .header .status.deactive{
+	background: #FDECEB;
+	color: #EE4E3F;
+}
+#real-time-user .main-content .userdata .real-time-user .body{
+	margin-top: 10px;
+	overflow-y: auto;
+	height: 400px;
+}
+#real-time-user .main-content .userdata .real-time-user .body .main-table{
+	border-collapse: collapse;
+	width: 730px;
+}
+#real-time-user .main-content .userdata .real-time-user .body .main-table thead{
+	position: sticky;
+	top: 0;
+}
+#real-time-user .main-content .userdata .real-time-user .body .main-table thead tr th{
+	background: #EEE;
+	border-bottom: 1px solid #F3F3F3;
+	position: relative;
+	font-size: 14px;
+	padding: 8px 20px;
+}
+#real-time-user .main-content .userdata .real-time-user .body .main-table thead tr th:before{
+	content: '';
+	position: absolute;
+	height: 60%;
+	width: 1px;
+	background: #E6E6E6;
+	right: 0;
+	top: 50%;
+	transform: translateY(-50%);
+}
+#real-time-user .main-content .userdata .real-time-user .body .main-table tbody tr td{
+	color: #3C4043;
+	font-size: 14px;
+	font-weight: 500;
+	border-bottom: 1px solid #F3F3F3;
+	vertical-align: middle;
+	padding: 13px 20px;
+}
+#real-time-user .main-content .userdata .real-time-user .body .main-table tbody tr td.name img{
+	margin-right: 6px;
+}
+#real-time-user .main-content .userdata .real-time-user .body .main-table tbody tr td.name .nametext{
+	white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
+    display: block;
+}
+#real-time-user .main-content .userdata .real-time-user .body .main-table tbody tr td.deviceid a{
+	margin-top: -3px;
+	margin-left: 5px;
+}
+#real-time-user .main-content .userdata .real-time-user .body .main-table tbody tr td.deviceid a i{
+	color: var(--theme-color);
+	font-size: 20px;
+	transition: 0.3s;
+}
+#real-time-user .main-content .userdata .real-time-user .body .main-table tbody tr td.deviceid a i:hover{
+	color: var(--theme-color);
+}
+@media (max-width: 767px) {
+	#real-time-user .col-lg-9.header-custom-col{
+		width: 100%;
+	}
+	#real-time-user .main-content .projectidpanel{
+		padding: 10px;
+	}
+	#real-time-user .main-content .projectidpanel .form-select{
+		height: 32px;
+		padding: 0 10px;
+		font-size: 12px;
+	}
+	#real-time-user .main-content .projectidpanel .input-group .form-control{
+		height: 32px;
+		font-size: 12px;
+	}
+	#real-time-user .main-content .graph{
+		padding: 10px;
+	}
+	#real-time-user .main-content .graph h2.heading{
+		font-size: 14px;
+	}
+	#real-time-user .main-content .userdata .real-time-user{
+		padding: 10px;
+/*		height: 100%;*/
+	}
+	#real-time-user .main-content .userdata .real-time-user .header .left .heading{
+		font-size: 14px;
+	}
+	#real-time-user .main-content .userdata .real-time-user .header .form-group .form-control{
+		padding: 6px;
+		font-size: 12px;
+		height: 32px;
+	}
+	#real-time-user .main-content .userdata .real-time-user .header .form-group{
+		min-width: 100px;
+	}
+	#real-time-user .main-content .userdata .real-time-user .header .left h6{
+		margin-left: 10px;
+	}
+	#real-time-user .main-content .userdata .real-time-user .body .main-table{
+		width: 450px;
+	}
+	#real-time-user .main-content .userdata .real-time-user .body .main-table thead tr th{
+		font-size: 10px;
+		padding: 5px;
+	}
+	#real-time-user .main-content .userdata .real-time-user .body .main-table tbody tr td{
+		font-size: 9px;
+		padding: 5px;
+	}
+	#real-time-user .main-content .userdata .real-time-user .body .main-table tbody tr td.name img{
+		max-width: 20px;
+	}
+	#real-time-user .main-content .userdata .real-time-user .body .main-table tbody tr td.deviceid a i{
+		font-size: 16px;
+	}
+	#real-time-user .main-content .userdata .real-time-user.second{
+		margin-left: 0;
+		margin-top: 10px;
+	}
+	#real-time-user .main-content .userdata .real-time-user .header .status{
+		font-size: 10px;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	#real-time-user .col-lg-9.header-custom-col{
+		width: 100%;
+	}
+	#real-time-user .main-content .projectidpanel{
+		padding: 10px;
+	}
+	#real-time-user .main-content .projectidpanel input{
+		font-size: 12px;
+	}
+	#real-time-user .main-content .graph{
+		padding: 10px;
+	}
+	#real-time-user .main-content .graph h2.heading{
+		font-size: 16px;
+	}
+	#real-time-user .main-content .userdata .real-time-user{
+		padding: 10px;
+	}
+	#real-time-user .main-content .userdata .real-time-user .header .left .heading{
+		font-size: 16px;
+	}
+	#real-time-user .main-content .userdata .real-time-user .header .left h6{
+		margin-left: 15px;
+	}
+	#real-time-user .main-content .userdata .real-time-user .header .status{
+		font-size: 10px;
+	}
+	#real-time-user .main-content .userdata .real-time-user .body .main-table{
+		width: 500px;
+	}
+	#real-time-user .main-content .userdata .real-time-user .body .main-table thead tr th{
+		padding: 4px 8px;
+		font-size: 10px;
+	}
+	#real-time-user .main-content .userdata .real-time-user .body .main-table tbody tr td{
+		padding: 8px;
+		font-size: 10px;
+	}
+	#real-time-user .main-content .userdata .real-time-user .body .main-table thead tr th:nth-child(1){
+		width: 25%;
+	}
+	#real-time-user .main-content .userdata .real-time-user .body .main-table tbody tr td.logo img{
+		max-width: 22px;
+	}
+}
+@media (min-width: 992px) and (max-width: 1600px) {
+	#real-time-user .main-content .projectidpanel{
+		padding: 15px;
+	}
+	#real-time-user .main-content .graph{
+		padding: 15px;
+	}
+	#real-time-user .main-content .userdata .real-time-user{
+		padding: 15px;
+	}
+	#real-time-user .main-content .userdata .real-time-user .header .left .heading{
+		font-size: 14px;
+	}
+	#real-time-user .main-content .userdata .real-time-user .header .left h6{
+		margin-left: 10px;
+		font-size: 10px;
+	}
+	#real-time-user .main-content .userdata .real-time-user .header .form-group{
+		min-width: auto;
+	}
+	#real-time-user .main-content .userdata .real-time-user .header .status{
+		font-size: 10px;
+		margin-left: 5px;
+	}
+	#real-time-user .main-content .userdata .real-time-user .badge{
+		width: 19px;
+		height: 12px;
+		font-size: 6px;
+	}
+	#real-time-user .main-content .userdata .real-time-user .header .form-group .form-control{
+		font-size: 10px;
+		padding: 6px 5px;
+	}
+	#real-time-user .main-content .userdata .real-time-user .body .main-table{
+		width: 500px;
+	}
+	#real-time-user .main-content .userdata .real-time-user .body .main-table tbody tr td{
+		padding: 8px 10px;
+		font-size: 10px;
+	}
+	#real-time-user .main-content .userdata .real-time-user .body .main-table thead tr th{
+		padding: 5px 10px;
+		font-size: 10px;
+	}
+	#real-time-user .main-content .userdata .real-time-user .body .main-table tbody tr td.name img{
+		max-width: 20px;
+	}
+	#real-time-user .main-content .userdata .real-time-user .body .main-table tbody tr td.deviceid a i{
+		font-size: 16px;
+	}
+	#real-time-user .main-content .graph h2.heading{
+		font-size: 16px;
+	}
+}
